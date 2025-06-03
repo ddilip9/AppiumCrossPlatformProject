@@ -15,17 +15,28 @@ This project demonstrates end-to-end mobile automation using Appium for Android 
 ---
 
 ## 📁 Project Structure
-├── src/
-│ └── test/
-│ └── java/
-│ └── tests/
-│ ├── BaseTest.java # Sets up and tears down Appium driver
-│ └── LoginTest.java # Sample login test
+```plaintext
+Appium_Andriod_ios/
+├── .idea/
 ├── apps/
-│ └── SampleApp.apk # Android app under test
-├── testng.xml # TestNG suite config
-├── verify_appium_environment.sh # Shell script to verify setup
-├── README.md # You're reading it
+│   ├── app-debug.apk                 # Android app under test
+│   └── MyApp.app                     # iOS app under test
+├── src/
+│   └── test/
+│       ├── java/
+│       │   ├── base/                 # Base setup classes (e.g. BaseTest)
+│       │   ├── pages/                # Page object classes
+│       │   ├── tests/                # Test classes (e.g. LoginTest)
+│       │   └── utils/                # Utility/helper classes
+│       └── resources/
+│           └── testng.xml           # TestNG configuration
+├── .gitignore
+├── Jenkinsfile                      # Jenkins pipeline script
+├── pom.xml                          # Maven project file
+├── README.md                        # You're reading it
+└── verify_appium_environment.sh     # Shell script to verify setup
+```
+
 
 ---
 
