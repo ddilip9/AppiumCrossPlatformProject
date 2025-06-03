@@ -59,6 +59,7 @@ Appium_Andriod_ios/
 1. Clone the project:
 
 git clone https://github.com/ddilip9/AppiumCrossPlatformProject.git
+
 cd AppiumCrossPlatformProject
 
 ---
