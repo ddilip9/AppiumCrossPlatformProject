@@ -60,6 +60,7 @@ Appium_Andriod_ios/
 
 git clone https://github.com/ddilip9/AppiumCrossPlatformProject.git
 cd AppiumCrossPlatformProject
+
 ---
 
 2. Install dependencies:
