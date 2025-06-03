@@ -47,8 +47,8 @@ This project demonstrates end-to-end mobile automation using Appium for Android 
 
 1. Clone the project:
 
-git clone https://github.com/your-username/mobile-automation-project.git
-cd mobile-automation-project
+git clone https://github.com/ddilip9/AppiumCrossPlatformProject.git
+cd AppiumCrossPlatformProject
 ---
 
 2. Install dependencies:
